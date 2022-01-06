@@ -182,3 +182,81 @@ h2 {
 .dipped {
   transform: translateY(5px);
 }
+
+@media screen {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1350px)  {
+  body {
+    background-color: orange;
+  }
+}
+
+@media screen and (min-width: 1051px) and (max-width: 1200px)  {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1050px)  {
+  body {
+    background-color: limegreen;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 900px)  {
+  body {
+    background-color: lightskyblue;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 750px)  {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 600px)  {
+  body {
+    background-color: purple;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen {
+  body {
+  }
+  .title{
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px)  {
+  body {
+  }
+  .title{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 599px)  {
+  body {
+  }
+  .title{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 520px)  {
+  .image {
+  width: 100%;
+  }
+}
